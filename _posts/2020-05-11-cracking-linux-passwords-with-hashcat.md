@@ -1,6 +1,6 @@
 ---
 title: "Cracking Linux Passwords With Hashcat"
-date: 2019-04-18T15:34:30-04:00
+date: 2020-04-18T13:12:34
 categories:
   - blog
 tags:
