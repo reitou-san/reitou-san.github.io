@@ -52,14 +52,14 @@ $ sha256sum -c SHA256SUMS.asc -> look for OK
 tar xzf bitcoin-0.19.1-x86_64-linux-gnu.tar.gz
 sudo install -m 0755 -o root -g root -t /usr/local/bin bitcoin-0.19.1/bin/*
 ```
-11. run up qt interface
+11. As the local user, run up qt interface
 ```
 /usr/local/bin/bitcoin-qt
 ```
 12. point node software to USB root + /bitcoin and DONT prune (e.g. /run/media/user/USBname/bitcoin)
-13. watch for a while as it creates stuff and syncs headers, if any segfaults restart. Check USB /bitcoin to see files being created.
+13. watch for a while as it creates stuff and syncs headers, if any segfaults restart. Check USB drive to see files being created.
 
-This will sync for a long ... long time, unless you are transplanting a backup of the ledger then it shows how much to catch up on, which still take a long ... long time.
+This will sync for a long ... long time, unless you are transplanting a backup of the ledger then it shows how much to catch up on, which still takes a long ... long time.
 Don't forget to add the USB drive after a VM restart! (a shutdown, then virtual box startup)
 
 <br>
