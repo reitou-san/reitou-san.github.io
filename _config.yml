@@ -14,11 +14,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Kiroshi Tech
-email:
+subtitle: "Cybertech you can trust"
+name: "Akira Owen"
+email: akira.owen@pm.me
 description: >- # this means to ignore newlines until "baseurl:"
-  I'm a software developer and hacker. I like to understanding how things work. Lets break stuff!
+  I'm a software developer and hacker. I like to understanding how things work.
 twitter_username: reitou_san
 github_username: reitou-san
+
 minimal_mistakes_skin: neon
 search: true
 
@@ -57,9 +60,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Anthony Owen"
-  avatar : "/assets/images/bio-photo.png"
-  bio    : "I'm a software developer and hacker. I like to understanding how things work. Lets break stuff!"
+  name   : "Akira Owen"
+  avatar : "/assets/images/bio-photo.jpg"
+  bio    : "I'm a software developer and hacker. I like to understanding how things work."
   links:
     - #label: "Website"
       #icon: "fas fa-fw fa-link"

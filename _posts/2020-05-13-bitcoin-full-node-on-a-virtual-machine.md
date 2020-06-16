@@ -59,7 +59,15 @@ sudo install -m 0755 -o root -g root -t /usr/local/bin bitcoin-0.19.1/bin/*
 12. point node software to USB root + /bitcoin and DONT prune (e.g. /run/media/user/USBname/bitcoin)
 13. watch for a while as it creates stuff and syncs headers, if any segfaults restart. Check USB drive to see files being created.
 
-This will sync for a long ... long time, unless you are transplanting a backup of the ledger then it shows how much to catch up on, which still takes a long ... long time.
+14. Create bitcoin.conf with the following entries for a fast sync and restart bitcoin-qt
+```
+datadir=/run/media/user/USBname/bitcoin
+banscore=10
+dbcache=4096
+listen=0
+```
+
+With the updates to bitcoin.conf my VM took around less than 3 hours to update 36GB (about a year out of date)
 Don't forget to add the USB drive after a VM restart! (a shutdown, then virtual box startup)
 
 <br>
