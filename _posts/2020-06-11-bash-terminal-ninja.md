@@ -1,6 +1,6 @@
 ---
 title: "Bash Terminal Ninja"
-date: 2020-06-10T10:00:00
+date: 2020-06-11T10:00:00
 categories:
   - blog
 tags:

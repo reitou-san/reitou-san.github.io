@@ -1,6 +1,6 @@
 ---
 title: "Formatting drives via windows cmd prompt"
-date: 2020-06-10T10:00:00
+date: 2020-06-16T10:00:00
 categories:
   - blog
 tags:
