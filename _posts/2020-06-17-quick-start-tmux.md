@@ -26,3 +26,16 @@ ctrl-b, d	detach from tmux, leaving everything running in the background
 $ tmux attach, reattach
 ```
 
+It is highly recommend to remap the main binding from Ctrl-b to something like Ctrl-c or Ctrl-a
+
+```bash
+$ vi ~/.tmux.conf
+```
+Setting to Ctrl-a, nice if you used `Screen` before.
+```
+set -g prefix C-a
+```
+
+Reference
+https://blog.hawkhost.com/2010/06/28/tmux-the-terminal-multiplexer/
+
