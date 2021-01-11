@@ -3,12 +3,11 @@ permalink: /about/
 title: "About"
 ---
 
-So I thought it was about time I blogged my adventures.
+Not being able to govern events, I govern myself, and if they will not adapt to me, I adapt to them.
 
-Hackthebox
-
-<script src="https://www.hackthebox.eu/badge/182231"></script>
-
-Tryhackme
 
 <script src="https://tryhackme.com/badge/109590"></script>
+
+
+
+<script src="https://www.hackthebox.eu/badge/182231"></script>
